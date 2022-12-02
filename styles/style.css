@@ -1,20 +1,41 @@
 body {
     counter-reset: recipe-counter;
-    padding-left: 10%;
+    padding: 0 5em;
     background-color: rgb(7, 76, 110);
+    color: white;
 }
 
 .header {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.header a {
+    font-size: 50px;
+    height: min-content;
+}
+
+h1, h2 {
+    width: max-content;
     font-family: 'Lucida Handwriting', cursive, sans-serif;
-    color: white;
+}
+
+h1 {
     font-size: 72px;
-    width: 380px;
     margin: 0 0 0.25em 0;
 }
 
 .cover {
     width: 380px;
     height: auto;
+}
+
+img {
+    width: 380px;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 5px solid white;
 }
 
 .recipes {
@@ -32,4 +53,19 @@ body {
 .recipes a:before {
     counter-increment: recipe-counter;
     content: "0" counter(recipe-counter) " ";
+}
+
+p, ul, ol, .header a {
+    background-color: rgb(232, 224, 188);
+    border: 1px solid rgb(234, 183, 16);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+p, ul, ol {
+    padding: 0.55em;
+}
+
+ul, ol {
+    padding-left: 40px;
 }

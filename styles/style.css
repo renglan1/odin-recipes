@@ -3,7 +3,7 @@ body {
     padding: 0 5em;
     background-color: rgb(7, 76, 110);
     color: white;
-    font-family: Monaco, monospace;
+    font-family: Monaco, monospace, sans-serif;
 }
 
 .header {

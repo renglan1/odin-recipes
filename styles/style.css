@@ -3,6 +3,7 @@ body {
     padding: 0 5em;
     background-color: rgb(7, 76, 110);
     color: white;
+    font-family: Monaco, monospace;
 }
 
 .header {
@@ -39,7 +40,6 @@ img {
 }
 
 .recipes {
-    font-family: 'Monaco', monospace;
     font-size: 25px;
     margin: 0.55em 0 0.55em 0;
 }

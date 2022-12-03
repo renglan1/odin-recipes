@@ -1,7 +1,7 @@
 body {
     counter-reset: recipe-counter;
     padding: 0 5em;
-    background-color: rgb(7, 76, 110);
+    background-color: hsl(199, 75%, 22%);
     color: white;
     font-family: Monaco, monospace, sans-serif;
 }
